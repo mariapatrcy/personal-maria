@@ -1,24 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar'; //bisa diaktifin dulu
+import Masthead from './components/Masthead';
+import Homepageplayers from './components/Homepageplayer';
+import Contactus from './components/Contactus';
+import Footer from './components/Footer';
+import Profile from './components/Profile/Profile';
+// import Portfolio from './components/Portfolio';
+// import Services from './components/Services';
 
-function App() {
+function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <!-- Navigation--> */}
+    <Navbar/> 
+    {/* <!-- Masthead--> */}
+    <Masthead/>
+    {/* <!-- Homepagelayers--> */}
+    <Homepageplayers/>
+    {/* <!-- Contact--> */}
+     <Contactus/>
+    {/* <!-- Footer--> */}
+    <Footer/>
+    <Profile/>
+
+    </>
   );
 }
 
