@@ -1,0 +1,50 @@
+.card.cardTwo {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    width: 48%;
+    opacity: 0.85;
+  }
+  
+  .input.exampleEmail{
+    width: 70%;
+  }
+  
+  .card-title.cardEdit{
+    display: flex;
+    padding:.4rem;
+  }
+  
+  .cardEdit input.form-control{
+  width:68%;
+  margin-left:auto;
+  }
+
+  
+  
+  @media only screen and (max-width: 770px) {
+    .card.cardTwo {
+      margin: 0 auto; /* Added */
+      float: none; /* Added */
+      margin-bottom: 10px; /* Added */
+      width: unset;
+      opacity: 0.85;
+    }
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .card.cardTwo {
+      margin: 0 auto; /* Added */
+      float: none; /* Added */
+      margin-bottom: 10px; /* Added */
+      width: unset;
+      opacity: 0.85;
+    }
+    .cardEdit input.form-control{
+      width:50%;
+      margin-left:auto;
+      }
+      
+  }
+  
+  
